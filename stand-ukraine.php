@@ -47,5 +47,5 @@ function supuk_show_flag() {
 		$width = 300;
 		$height = 84;
 	}
-	echo '<div title="' . esc_html__( 'We stand with Ukraine', 'stand-ukraine' ) . '" style="position: fixed; left: -80px; bottom: 20px; width: ' . esc_html( $width ) . 'px; height: ' . esc_html( $height ) . 'px; transform: rotate(45deg); z-index: 999; background: linear-gradient(-180deg, rgb(0, 91, 187) 50%, rgb(255, 213, 0) 50%);"></div>';
+	echo '<div title="' . esc_html__( 'We stand with Ukraine', 'stand-ukraine' ) . '" style="position: fixed; left: -80px; bottom: 20px; width: ' . esc_html( $width ) . 'px; height: ' . esc_html( $height ) . 'px; transform: rotate(45deg); z-index: 999; background: linear-gradient(-180deg, rgb(0, 91, 187) 50%, rgb(255, 213, 0) 50%); opacity: 0.7;"></div>';
 }
